@@ -1,1 +1,32 @@
+# --- PYTHON ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# --- ENVIRONMENTS ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- JUPYTER ---
+.ipynb_checkpoints/
+
+# --- VS CODE ---
 .vscode/
+
+# --- DATA / MODELS ---
+*.csv
+*.tsv
+*.xls*
+*.sqlite
+*.db
+*.pt
+*.pth
+
+# --- SYSTEM CRUFT ---
+.DS_Store
+Thumbs.db
